@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+/*
+
+Style our app according to the provided design!
+
+green color -> #5f9341
+
+*/
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #5f9341;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.delete-all-btn, .delete-select-btn{
+    background: #fff;
+    color: #5f9341;;
+}
+ul{
+list-style: none;
+margin-top: 20px;
+padding-left: 0;
+/* position: relative; */
+}
+li{
+margin-top: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+li a{
+    color: #5f9341;
+    max-width: 85%;
+    flex-wrap: wrap;
+    /* margin-right: 2rem; */
+}
+
+.delete{
+    /* position: absolute; */
+    /* right: 10%; */
+    color: darkred;
+    width: 1%;
+    cursor: pointer;
+}
